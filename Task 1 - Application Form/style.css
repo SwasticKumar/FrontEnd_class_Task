@@ -1,0 +1,332 @@
+/* Global */
+* {
+  margin: 0;
+  padding: 0% 3%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: relative;
+}
+/* logo */
+#img {
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: 15%;
+  width: 15%;
+  margin-left: 38%;
+}
+/* Application for university h2 */
+#h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+/* Please fill out application */
+h3 {
+  text-align: center;
+  font-weight: lighter;
+  color: #444;
+}
+/* Personal Information h2 */
+.head {
+  text-align: left;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 6% 0% 1% 9%;
+  margin-left: 8%;
+  color: #444;
+}
+hr {
+  margin: 0% 9%;
+  color: #999;
+  background-color: #999;
+}
+h4 {
+  position: relative;
+  margin: 4% 0 0 12%;
+  font-size: medium;
+  color: #555;
+}
+/* FullName Two (Input) box */
+#firstname {
+  position: relative;
+  width: 30%;
+  padding: 12px 10px;
+  margin: 1% 3% 1% 15%;
+  color: #111;
+}
+#lastname {
+  position: relative;
+  width: 30%;
+  padding: 12px 10px;
+  margin: 1% 0% 1% 1%;
+  color: #111;
+}
+
+/* label (fullname) */
+.firstname {
+  position: relative;
+  margin: 1% 3% 1% 12%;
+  color: #777;
+  font-size: small;
+}
+.lastname {
+  margin: 1% 0% 1% 22%;
+  color: #777;
+  font-size: small;
+}
+/* span in label(Date of Birth) */
+.rightHead {
+  position: relative;
+  margin: 1% 3% 1% 35%;
+  font-size: medium;
+  color: #555;
+  display: inline;
+}
+/* select in (Gender) */
+#gender {
+  position: relative;
+  width: 30%;
+  padding: 15px 35px 15px 20px;
+  margin: 1% 0% 1% 15%;
+  color: #111;
+}
+/* Gender Option in (Please Select) */
+#holder {
+  color: #999;
+  background-color: #333;
+}
+/* Input in (Date of Birth) */
+#dob {
+  position: relative;
+  width: 30%;
+  padding: 12px 10px;
+  margin: 1% 0% 1% 6%;
+  color: #111;
+}
+/* Span in label(Email) */
+.email1 {
+  position: relative;
+  margin: 1% 3% 1% 28%;
+  font-size: medium;
+  color: #555;
+  display: inline;
+}
+/* Input (phone number) */
+#phonenumber {
+  position: relative;
+  width: 30%;
+  padding: 12px 10px;
+  margin: 1% 3% 1% 15%;
+  color: #111;
+}
+/* Input (Email) */
+#email {
+  position: relative;
+  width: 30%;
+  padding: 12px 10px;
+  margin: 1% 0% 1% 1%;
+  color: #111;
+}
+/* label (phone number)  */
+.rigthlabel {
+  position: relative;
+  margin: 1% 3% 1% 12%;
+  color: #777;
+  font-size: small;
+}
+/* label(email) */
+.leftlabel {
+  margin: 1% 0% 1% 7%;
+  color: #777;
+  font-size: small;
+}
+/* Input(street Address) */
+#streetaddress {
+  position: relative;
+  width: 30%;
+  padding: 12px 38% 12px 10px;
+  margin: 1% 3% 1% 15%;
+  color: #111;
+}
+/* Input(Stress Address 2) */
+#streetaddress2 {
+  position: relative;
+  width: 30%;
+  padding: 12px 38% 12px 10px;
+  margin: 1% 3% 1% 15%;
+  color: #111;
+}
+/* Input(City) */
+#city {
+  position: relative;
+  width: 30%;
+  padding: 12px 10px;
+  margin: 1% 3% 1% 15%;
+  color: #111;
+}
+/* Input (State) */
+#state {
+  position: relative;
+  width: 30%;
+  padding: 12px 10px;
+  margin: 1% 0% 1% 1%;
+  color: #111;
+}
+/* label (State) */
+.state {
+  margin: 1% 0% 1% 26%;
+  color: #777;
+  font-size: small;
+}
+/* Input(Portal) */
+#postal {
+  position: relative;
+  width: 30%;
+  padding: 12px 38% 12px 10px;
+  margin: 1% 3% 1% 15%;
+  color: #111;
+}
+/* hr (space)*/
+#space {
+  margin: 3% 9% 5% 9%;
+  color: #999;
+}
+/* Span in(Study Field) */
+.study {
+  position: relative;
+  margin: 1% 3% 1% 30%;
+  font-size: medium;
+  color: #555;
+  display: inline;
+}
+/* Input (School Name) */
+#schoolname {
+  position: relative;
+  width: 30%;
+  padding: 12px 10px;
+  margin: 1% 3% 1% 15%;
+  color: #111;
+}
+/* Input(Study Field) */
+#studyfield {
+  position: relative;
+  width: 30%;
+  padding: 12px 10px;
+  margin: 1% 0% 1% 1%;
+  color: #111;
+}
+/* Input (Date Graduated) */
+#dategraduated {
+  position: relative;
+  width: 30%;
+  padding: 12px 10px;
+  margin: 1% 3% 1% 15%;
+  color: #111;
+}
+/* Input(GPA) */
+#gpa {
+  position: relative;
+  width: 30%;
+  padding: 12px 10px;
+  margin: 1% 0% 1% 1%;
+  color: #111;
+}
+/* Input (School Name 2) */
+#schoolname2 {
+  position: relative;
+  width: 30%;
+  padding: 12px 10px;
+  margin: 1% 3% 1% 15%;
+  color: #111;
+}
+/* Input(Study Field 2) */
+#studyfield2 {
+  position: relative;
+  width: 30%;
+  padding: 12px 10px;
+  margin: 1% 0% 1% 1%;
+  color: #111;
+}
+/* Input (School Address) */
+#schooladdress {
+  position: relative;
+  width: 30%;
+  padding: 12px 38% 12px 10px;
+  margin: 1% 3% 1% 15%;
+  color: #111;
+}
+/* Input (Date Graduated 2) */
+#dategraduated2 {
+  position: relative;
+  width: 30%;
+  padding: 12px 10px;
+  margin: 1% 3% 1% 15%;
+  color: #111;
+}
+/* Input(GPA2) */
+#gpa2 {
+  position: relative;
+  width: 30%;
+  padding: 12px 10px;
+  margin: 1% 0% 1% 1%;
+  color: #111;
+}
+/* Span in (SAT Score) */
+.satscrore {
+  position: relative;
+  margin: 1% 3% 1% 33%;
+  font-size: medium;
+  color: #555;
+  display: inline;
+}
+/* Input (Test Date) */
+#testdate {
+  position: relative;
+  width: 30%;
+  padding: 12px 10px;
+  margin: 1% 3% 1% 15%;
+  color: #111;
+}
+/* Input (SAT Score) */
+#combined {
+  position: relative;
+  width: 30%;
+  padding: 12px 10px;
+  margin: 1% 0% 1% 1%;
+  color: #111;
+}
+/* Label (Combined) */
+.combined {
+  margin: 1% 0% 1% 25%;
+  color: #777;
+  font-size: small;
+}
+/* Input(Description) */
+#description {
+  position: relative;
+  width: 30%;
+  padding: 12px 38% 12px 10px;
+  margin: 1% 3% 1% 15%;
+  color: #111;
+}
+/* Button(Apply Now) */
+#button1 {
+  background-color: #008cba;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  display: block;
+  width: 150px;
+  margin: 4% auto;
+  padding: 16px 32px;
+  cursor: pointer;
+  font-size: 14px;
+  transition-duration: 0.4s;
+}
+#button1:hover {
+  background-color: #008cba;
+  color: black;
+  border: 2px solid white;
+}

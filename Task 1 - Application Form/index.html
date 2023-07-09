@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <img id="img" src="image/Design 2.png" alt="logo" />
+    </div>
+    <!-- Main Heading 1 -->
+    <h2 id="h2">Application for University</h2>
+    <h3>Please fill out the application form carefully</h3>
+
+    <!------------ Heading 1 -----(Start) ------->
+
+    <h2 class="head">Personal Information</h2>
+    <hr />
+    <form action="#" method="post">
+      <div>
+        <h4>Full Name</h4>
+        <!-- Right and Left (Input) -->
+        <input type="text" name="firstname" id="firstname" required />
+        <input type="text" name="lastname" id="lastname" required />
+        <br />
+        <!-- Label (rigth and left) -->
+        <label class="firstname" for="firstname">FirstName</label>
+        <label class="lastname" for="lastname">LastName</label>
+      </div>
+
+      <div>
+        <h4>Gender <span class="rightHead">Date Of Birth</span></h4>
+
+        <select name="gender" id="gender" required>
+          <option id="holder" value="">Please Select</option>
+          <option value="1">Male</option>
+          <option value="2">Female</option>
+          <option value="3">Other</option>
+        </select>
+
+        <input type="date" id="dob" required />
+      </div>
+
+      <div>
+        <!-- heading -->
+        <h4>Phone Number <span class="email1">Email</span></h4>
+        <!-- input -->
+        <input
+          placeholder="(000) 000-0000"
+          type="text"
+          name="phonenumber"
+          id="phonenumber"
+          required
+          oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"
+        />
+        <input type="email" name="email" id="email" required />
+        <!-- label -->
+        <label class="rigthlabel" for="phonenumber"
+          >Please enter a valid phone number.</label
+        >
+        <label class="leftlabel" for="email">example@example.com</label>
+      </div>
+      <div>
+        <h4>Address</h4>
+        <!-- Street Address -->
+        <input type="text" name="streetaddress" id="streetaddress" required />
+        <br />
+        <label for="streetaddress" class="rigthlabel">Street Address</label>
+        <br />
+        <!-- Street Address 2 -->
+        <input type="text" name="streetaddress2" id="streetaddress2" required />
+        <br />
+        <label for="streetaddress2" class="rigthlabel"
+          >Street Address Line 2</label
+        >
+        <br />
+        <!-- City and States -->
+        <!-- (input) -->
+        <input type="text" name="city" id="city" required />
+        <input type="text" name="state" id="state" required />
+        <br />
+        <!-- (Label) -->
+        <label class="firstname" for="city">City</label>
+        <label class="state" for="state">State / Province </label>
+        <br />
+        <!-- Portal and Country -->
+        <!-- (input) -->
+        <input type="text" name="postal" id="postal" required />
+        <br />
+        <!-- (Label) -->
+        <label class="firstname" for="postal">Postal / Zip Code</label>
+      </div>
+
+      <hr id="space" />
+
+      <div>
+        <!------------ Heading 1 -----(End) ------->
+
+        <!-- Main Heading 2 -->
+        <h2 id="h2">Education Background</h2>
+        <h3>List your Previous schools, beginning with the most recent</h3>
+      </div>
+      <!------------ Heading 2 -----(Start) ------->
+      <h2 class="head">College</h2>
+      <hr />
+
+      <div>
+        <!-- label (School Name) -->
+        <h4>School Name <span class="study">Study Field</span></h4>
+        <!-- Input -->
+        <input type="type" name="schoolname" id="schoolname" required />
+
+        <input type="type" name="studyfield" id="studyfield" required />
+      </div>
+      <!-- Address 2 -->
+      <div>
+        <h4>Address</h4>
+        <!-- Street Address -->
+        <input type="text" name="streetaddress" id="streetaddress" required />
+        <br />
+        <label for="streetaddress" class="rigthlabel">Street Address</label>
+        <br />
+        <!-- Street Address 2 -->
+        <input type="text" name="streetaddress2" id="streetaddress2" required />
+        <br />
+        <label for="streetaddress2" class="rigthlabel"
+          >Street Address Line 2</label
+        >
+        <br />
+        <!-- City and States -->
+        <!-- (input) -->
+        <input type="text" name="city" id="city" required />
+        <input type="text" name="state" id="state" required />
+        <br />
+        <!-- (Label) -->
+        <label class="firstname" for="city">City</label>
+        <label class="state" for="state">State / Province </label>
+        <br />
+        <!-- Portal and Country -->
+        <!-- (input) -->
+        <input type="text" name="postal" id="postal" required />
+        <br />
+        <!-- (Label) -->
+        <label class="firstname" for="postal">Postal / Zip Code</label>
+      </div>
+
+      <div>
+        <!-- label -->
+        <h4>Date Graduated<span class="email1">GPA</span></h4>
+        <!-- Input -->
+        <input type="date" name="dategraduated" id="dategraduated" required />
+
+        <input type="type" name="gpa" id="gpa" required />
+        <!-- Label -->
+        <label class="firstname" for="dategraduated">Date</label>
+      </div>
+      <!------------ Heading 2 -----(End) ------->
+
+      <!------------ Heading 3 -----(Start) ------->
+      <h2 class="head">Secondary</h2>
+      <hr />
+      <div>
+        <!-- label (School Name) -->
+        <h4>School Name <span class="study">Study Field</span></h4>
+        <!-- Input -->
+        <input type="type" name="schoolname2" id="schoolname2" required />
+
+        <input type="type" name="studyfield2" id="studyfield2" required />
+      </div>
+      <div>
+        <h4>School Address</h4>
+        <textarea
+          name="schooladdress"
+          id="schooladdress"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+      <div>
+        <!-- label -->
+        <h4>Date Graduated<span class="email1">GPA</span></h4>
+        <!-- Input -->
+        <input type="date" name="dategraduated2" id="dategraduated2" required />
+
+        <input type="type" name="gpa2" id="gpa2" required />
+        <!-- Label -->
+        <label class="firstname" for="dategraduated">Date</label>
+      </div>
+      <!------------ Heading 3 -----(End) ------->
+
+      <!------------ Heading 4 -----(Start) ------->
+      <h2 class="head">SAT Information</h2>
+      <hr />
+      <div>
+        <!-- label -->
+        <h4>Test Date<span class="satscrore">SAT Score</span></h4>
+        <!-- Input -->
+        <input
+          type="date"
+          name="testdate"
+          id="testdate"
+          placeholder="07-10-2023"
+        />
+
+        <input type="type" name="combined" id="combined" required />
+        <!-- Label -->
+        <label class="firstname" for="dategraduated">Date</label>
+        <label class="combined" for="combined">Combined</label>
+      </div>
+      <!------------ Heading 4 -----(End) ------->
+
+      <!------------ Heading 5 -----(Start) ------->
+      <h2 class="head">Activity Information</h2>
+      <hr />
+      <div>
+        <h4>Brief description of activity no.1 and your role</h4>
+        <textarea
+          name="description"
+          id="description"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+      <hr />
+      <!------------ Heading 5 -----(Start) ------->
+
+      <!------------ Apply Now ---------->
+
+      <button id="button1" name="applynow" type="button">Apply Now!</button>
+    </form>
+  </body>
+</html>
