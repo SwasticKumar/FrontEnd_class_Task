@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>overflow</title>
+    <style>
+      .Container {
+        position: relative;
+        width: 200px;
+        height: 100px;
+        border: 1px solid black;
+        background: radial-gradient(  white,black);
+        color: blue;
+        
+      }
+      .hidden{
+        overflow: hidden;
+        
+      }
+      .scroll{
+        overflow: scroll;
+        top: 20px;
+      }
+      .auto{
+        overflow: auto;
+        top: 40px;
+      }
+      .visible{
+        overflow: visible;
+        top:60px
+
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS OverFlow Demo</h1>
+    <div class="Container hidden">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </div>
+    <div class="Container scroll">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis nesciunt, ab cumque labore tempora assumenda voluptate dolore neque rerum deserunt necessitatibus dolores commodi iste consequuntur unde quos eligendi incidunt enim? f</div>
+    <div class="Container auto">ksjfa;Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure temporibus reiciendis corrupti eligendi beatae quia ab molestiae! Nostrum qui rerum magni nulla accusantium aliquam iure enim, dicta eveniet porro cumque?sjfpaoskfpadsdf</div>
+    <div class="Container visible">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi in nihil ipsum! Sint, esse vero. Corrupti quod magni commodi rem, provident voluptates maiores debitis modi id ad? Iusto, eum temporibus.</div>
+
+   
+  </body>
+
+</html>

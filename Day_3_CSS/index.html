@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Style Session</title>
+    <style>
+      .block-element {
+        display: block;
+        background-color: blueviolet;
+      }
+      .inline-element {
+        display: inline;
+        background-color: coral;
+        text-decoration: underline;
+      }
+      .btn:active {
+        background-color: green;
+        color: white;
+        border: none;
+      }
+      .btn {
+        display: inline;
+      }
+      a {
+        display: block;
+        text-decoration: double;
+      }
+      .btn2:hover {
+        background-color: gray;
+        color: black;
+      }
+      li:nth-child(even) {
+        background-color: orange;
+      }
+      li:nth-child(odd) {
+        background-color: red;
+      }
+      .box1{
+        height: 50px;
+        width: 100px;
+        border: 1px solid blue;
+        padding: 50px;
+        margin: auto;
+        background-color: aqua;
+        /* display: inline; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="inline-element">This is Div Tag natura of div is block 1</div>
+    <div class="inline-element">This is Div Tag natura of div is block 2</div>
+    <h1 class="inline-element">Nature is Block</h1>
+    <h2 class="inline-element">Nature is Block</h2>
+    <span class="block-element">Nature is Inline 1</span>
+    <span class="block-element">Nature is Inline 2</span>
+    <a href="#">click me</a>
+    <button class="btn">Active Tag</button>
+    <button class="btn2">Hover Tag</button>
+    <ul>
+      <li>Item1</li>
+      <li>Item2</li>
+      <li>Item3</li>
+      <li>Item4</li>
+      <li>Item5</li>
+    </ul>
+    <!-- box model -->
+    <div class="box1">Hello Box 1</div>
+    <div class="box1">Hello Box 2</div>
+  </body>
+</html>

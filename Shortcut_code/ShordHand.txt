@@ -1,0 +1,17 @@
+<!-- div(Tag)+class(name)+value(name) -->
+    <!-- div.item-$*5{Item-$} -->
+
+    <div class="item-1">Item-1</div>
+    <div class="item-2">Item-2</div>
+    <div class="item-3">Item-3</div>
+    <div class="item-4">Item-4</div>
+    <div class="item-5">Item-5</div>
+
+ <!-- Div(Tag)+Multiply (Count)+value(name)+$(count of value) -->
+    <!-- div*5>{Item-$} or div*5{Item-$}
+ -->
+    <div>Item-1</div>
+    <div>Item-2</div>
+    <div>Item-3</div>
+    <div>Item-4</div>
+    <div>Item-5</div>
