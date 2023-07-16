@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chess Board</title>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./chess_black.css" />
+    <!--Font Awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <button type="button">
+      <a href="./chess_white.html"><i class="fa-solid fa-rotate"></i></a>
+    </button>
+
+    <div class="container">
+      <div class="box out-stop"></div>
+      <div class="box out-rotate">a</div>
+      <div class="box out-rotate">b</div>
+      <div class="box out-rotate">c</div>
+      <div class="box out-rotate">d</div>
+      <div class="box out-rotate">e</div>
+      <div class="box out-rotate">f</div>
+      <div class="box out-rotate">g</div>
+      <div class="box out-rotate">h</div>
+      <div class="box out-stop"></div>
+      <div class="box out">1</div>
+
+      <!-- <div class="box unmark">
+        <i class="fa-solid fa-chess-rook"></i>
+      </div>
+      <div class="box mark">
+        <i class="fas fa-chess-bishop"></i>
+      </div>
+      <div class="box unmark">
+        <i class="fas fa-chess-knight"></i>
+      </div>
+      <div class="box mark">
+        <i class="fas fa-chess-king"></i>
+      </div>
+      <div class="box unmark">
+        <i class="fa-solid fa-chess-queen"></i>
+      </div>
+      <div class="box mark">
+        <i class="fas fa-chess-knight"></i>
+      </div>
+      <div class="box unmark">
+        <i class="fas fa-chess-bishop"></i>
+      </div>
+      <div class="box mark">
+        <i class="fas fa-chess-rook"></i>
+      </div> -->
+      <div class="box mark"><i class="fa-regular fa-chess-rook"></i></div>
+      <div class="box unmark"><i class="fa-regular fa-chess-bishop"></i></div>
+      <div class="box mark"><i class="fa-regular fa-chess-knight"></i></div>
+      <div class="box unmark"><i class="fa-regular fa-chess-king"></i></div>
+      <div class="box mark"><i class="fa-regular fa-chess-queen"></i></div>
+      <div class="box unmark"><i class="fa-regular fa-chess-knight"></i></div>
+      <div class="box mark"><i class="fa-regular fa-chess-bishop"></i></div>
+      <div class="box unmark"><i class="fa-regular fa-chess-rook"></i></div>
+
+      <div class="box out-rotate-left">8</div>
+      <div class="box out">2</div>
+
+      <!-- <div class="box mark">
+        <i class="fa-solid fa-chess-pawn"></i>
+      </div>
+      <div class="box unmark">
+        <i class="fa-solid fa-chess-pawn"></i>
+      </div>
+      <div class="box mark">
+        <i class="fa-solid fa-chess-pawn"></i>
+      </div>
+      <div class="box unmark">
+        <i class="fa-solid fa-chess-pawn"></i>
+      </div>
+      <div class="box mark">
+        <i class="fa-solid fa-chess-pawn"></i>
+      </div>
+      <div class="box unmark">
+        <i class="fa-solid fa-chess-pawn"></i>
+      </div>
+      <div class="box mark">
+        <i class="fa-solid fa-chess-pawn"></i>
+      </div>
+      <div class="box unmark">
+        <i class="fa-solid fa-chess-pawn"></i>
+      </div> -->
+      <div class="box unmark"><i class="fa-regular fa-chess-pawn"></i></div>
+      <div class="box mark"><i class="fa-regular fa-chess-pawn"></i></div>
+      <div class="box unmark"><i class="fa-regular fa-chess-pawn"></i></div>
+      <div class="box mark"><i class="fa-regular fa-chess-pawn"></i></div>
+      <div class="box unmark"><i class="fa-regular fa-chess-pawn"></i></div>
+      <div class="box mark"><i class="fa-regular fa-chess-pawn"></i></div>
+      <div class="box unmark"><i class="fa-regular fa-chess-pawn"></i></div>
+      <div class="box mark"><i class="fa-regular fa-chess-pawn"></i></div>
+
+      <div class="box out-rotate-left">7</div>
+      <div class="box out">3</div>
+
+      <div class="box mark"></div>
+      <div class="box unmark"></div>
+      <div class="box mark"></div>
+      <div class="box unmark"></div>
+      <div class="box mark"></div>
+      <div class="box unmark"></div>
+      <div class="box mark"></div>
+      <div class="box unmark"></div>
+
+      <div class="box out-rotate-left">6</div>
+      <div class="box out">4</div>
+
+      <div class="box unmark"></div>
+      <div class="box mark"></div>
+      <div class="box unmark"></div>
+      <div class="box mark"></div>
+      <div class="box unmark"></div>
+      <div class="box mark"></div>
+      <div class="box unmark"></div>
+      <div class="box mark"></div>
+
+      <div class="box out-rotate-left">5</div>
+      <div class="box out">5</div>
+
+      <div class="box mark"></div>
+      <div class="box unmark"></div>
+      <div class="box mark"></div>
+      <div class="box unmark"></div>
+      <div class="box mark"></div>
+      <div class="box unmark"></div>
+      <div class="box mark"></div>
+      <div class="box unmark"></div>
+
+      <div class="box out-rotate-left">4</div>
+      <div class="box out">6</div>
+
+      <div class="box unmark"></div>
+      <div class="box mark"></div>
+      <div class="box unmark"></div>
+      <div class="box mark"></div>
+      <div class="box unmark"></div>
+      <div class="box mark"></div>
+      <div class="box unmark"></div>
+      <div class="box mark"></div>
+
+      <div class="box out-rotate-left">3</div>
+      <div class="box out">7</div>
+
+      <!-- <div class="box unmark"><i class="fa-regular fa-chess-pawn"></i></div>
+      <div class="box mark"><i class="fa-regular fa-chess-pawn"></i></div>
+      <div class="box unmark"><i class="fa-regular fa-chess-pawn"></i></div>
+      <div class="box mark"><i class="fa-regular fa-chess-pawn"></i></div>
+      <div class="box unmark"><i class="fa-regular fa-chess-pawn"></i></div>
+      <div class="box mark"><i class="fa-regular fa-chess-pawn"></i></div>
+      <div class="box unmark"><i class="fa-regular fa-chess-pawn"></i></div>
+      <div class="box mark"><i class="fa-regular fa-chess-pawn"></i></div> -->
+
+      <div class="box mark">
+        <i class="fa-solid fa-chess-pawn"></i>
+      </div>
+      <div class="box unmark">
+        <i class="fa-solid fa-chess-pawn"></i>
+      </div>
+      <div class="box mark">
+        <i class="fa-solid fa-chess-pawn"></i>
+      </div>
+      <div class="box unmark">
+        <i class="fa-solid fa-chess-pawn"></i>
+      </div>
+      <div class="box mark">
+        <i class="fa-solid fa-chess-pawn"></i>
+      </div>
+      <div class="box unmark">
+        <i class="fa-solid fa-chess-pawn"></i>
+      </div>
+      <div class="box mark">
+        <i class="fa-solid fa-chess-pawn"></i>
+      </div>
+      <div class="box unmark">
+        <i class="fa-solid fa-chess-pawn"></i>
+      </div>
+
+      <div class="box out-rotate-left">2</div>
+      <div class="box out">8</div>
+
+      <!-- <div class="box mark"><i class="fa-regular fa-chess-rook"></i></div>
+      <div class="box unmark"><i class="fa-regular fa-chess-bishop"></i></div>
+      <div class="box mark"><i class="fa-regular fa-chess-knight"></i></div>
+      <div class="box unmark"><i class="fa-regular fa-chess-king"></i></div>
+      <div class="box mark"><i class="fa-regular fa-chess-queen"></i></div>
+      <div class="box unmark"><i class="fa-regular fa-chess-knight"></i></div>
+      <div class="box mark"><i class="fa-regular fa-chess-bishop"></i></div>
+      <div class="box unmark"><i class="fa-regular fa-chess-rook"></i></div> -->
+
+      <div class="box unmark">
+        <i class="fa-solid fa-chess-rook"></i>
+      </div>
+      <div class="box mark">
+        <i class="fas fa-chess-bishop"></i>
+      </div>
+      <div class="box unmark">
+        <i class="fas fa-chess-knight"></i>
+      </div>
+      <div class="box mark">
+        <i class="fas fa-chess-king"></i>
+      </div>
+      <div class="box unmark">
+        <i class="fa-solid fa-chess-queen"></i>
+      </div>
+      <div class="box mark">
+        <i class="fas fa-chess-knight"></i>
+      </div>
+      <div class="box unmark">
+        <i class="fas fa-chess-bishop"></i>
+      </div>
+      <div class="box mark">
+        <i class="fas fa-chess-rook"></i>
+      </div>
+
+      <div class="box out-rotate-left">1</div>
+      <div class="box out-stop"></div>
+      <div class="box out-bot">a</div>
+      <div class="box out-bot">b</div>
+      <div class="box out-bot">c</div>
+      <div class="box out-bot">d</div>
+      <div class="box out-bot">e</div>
+      <div class="box out-bot">f</div>
+      <div class="box out-bot">g</div>
+      <div class="box out-bot">h</div>
+      <div class="box out-stop"></div>
+    </div>
+  </body>
+</html>

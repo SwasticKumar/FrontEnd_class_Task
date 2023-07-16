@@ -1,0 +1,86 @@
+body {
+  background: radial-gradient(gray, black);
+  /* background: linear-gradient(to top, black, gray); */
+  position: relative;
+  font-weight: bold;
+  font-size: large;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+.container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 40px 70px 70px 70px 70px 70px 70px 70px 70px 40px;
+  grid-template-rows: 40px 70px 70px 70px 70px 70px 70px 70px 70px 40px;
+  margin: 0% 25% 0% 25%;
+  text-align: center;
+}
+.box {
+  padding: 30%;
+}
+.out {
+  background-color: black;
+  color: gray;
+  border-right: 2px solid white;
+  padding: 13px;
+
+  /* background: linear-gradient(to left, sandybrown, orange, sandybrown);
+    color: black;
+    border-right: 2px solid black; */
+}
+.mark > i {
+  background: linear-gradient(to left, gray, white, gray);
+  text-align: center;
+  font-size: 40px;
+}
+.unmark > i {
+  background: none;
+  text-align: center;
+  font-size: 40px;
+}
+.out-bot {
+  background-color: black;
+  color: gray;
+  border-top: 2px solid white;
+  padding: 13px;
+
+  /* background: linear-gradient(to top, sandybrown, orange, sandybrown);
+    color: black;
+    border-top: 2px solid black; */
+}
+.out-stop {
+  background-color: black;
+  padding: 13px;
+  border: none;
+
+  /* background: linear-gradient(to bottom, sandybrown, orange, sandybrown); */
+}
+.out-rotate {
+  background-color: black;
+  color: snow;
+  border-top: 2px solid white;
+  transform: rotate(180deg);
+  padding: 13px;
+
+  /* background: linear-gradient(to bottom, sandybrown, orange, sandybrown);
+    color: black;
+    border-top: 2px solid black; */
+}
+.out-rotate-left {
+  background-color: black;
+  color: snow;
+  border-right: 2px solid white;
+  transform: rotate(180deg);
+  padding: 13px;
+
+  /* background: linear-gradient(to left, sandybrown, orange, sandybrown);
+    color: black;
+    border-right: 2px solid black; */
+}
+.mark {
+  background-color: black;
+  /* border: 1px solid white; */
+}
+.unmark {
+  background: linear-gradient(to left, gray, white, gray);
+  /* border: 1px solid black; */
+}
