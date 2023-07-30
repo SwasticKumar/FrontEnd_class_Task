@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM DAY 3</title>
+    <style>
+      .container{
+        max-width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 5px;
+      }
+      .form-group{
+        margin-bottom: 10px;
+      }
+      .result{
+        font-weight: bold;
+        color: red;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Calculate Model</h1>
+      <div class="form-group"><label for="num1">Number1</label>
+        <input type="number" id="num1" required/></div>
+
+      <div class="form-group">
+      <label for="num2">Number2</label>
+      <input type="number" id="num2" />
+    </div>
+
+    <div class="form-group">
+      <button onclick="calc_function('add')" >Add</button>
+      <button onclick="calc_function('sub')" >Sub</button>
+      <button onclick="calc_function('mul')" >Mul</button>
+      <button onclick="calc_function('div')">Div</button>
+    </div>
+    
+    <div class="result">Result: <span id="resultValue"></span></div>
+    <script src="./script.js"></script>
+  </body>
+</html>

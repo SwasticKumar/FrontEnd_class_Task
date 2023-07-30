@@ -1,3 +1,7 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
   background: radial-gradient(gray, black);
   /* background: linear-gradient(to top, black, gray); */
@@ -27,10 +31,14 @@ body {
     color: black;
     border-right: 2px solid black; */
 }
+.coin-hover:hover {
+  transform: scale(1.5);
+}
 .mark > i {
   background: linear-gradient(to left, gray, white, gray);
   text-align: center;
   font-size: 40px;
+  padding-bottom: 2px;
 }
 .unmark > i {
   background: none;

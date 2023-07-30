@@ -1,0 +1,20 @@
+body,
+html {
+  background-image: linear-gradient(rgb(244, 131, 19), white, rgb(36, 236, 36));
+  height: 100%;
+}
+
+#countdown {
+  color: rgb(9, 12, 208);
+  font-weight: bolder;
+  font-size: 100px;
+  text-decoration: wavy;
+}
+
+#statement {
+  color: rgb(0, 6, 128);
+  font-weight: bolder;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 100px;
+}

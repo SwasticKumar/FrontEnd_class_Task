@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chess Board</title>
     <!-- Style CSS -->
-    <link rel="stylesheet" href="./chess_white.css" />
+    <link rel="stylesheet" href="./chess_black.css" />
     <!--Font Awesome  -->
     <link
       rel="stylesheet"
@@ -16,16 +16,15 @@
     />
   </head>
   <body>
-    <div class="btn">
-      <button type="button">
-        <a href="./index.html"><i class="fa-solid fa-rotate"></i></a>
-      </button>
-      
+    <button type="button">
+      <a href="./index.html"><i class="fa-solid fa-rotate"></i></a>
+    </button>
+
     <div class="container">
-     
+      <!-- left (empty) -->
       <div class="box out-stop"></div>
 
-      <!-- Row 1 (White Rotate Alphabet) -->
+      <!-- Row 1 (Black Rotate Alphabet) -->
       <div class="box out-rotate">a</div>
       <div class="box out-rotate">b</div>
       <div class="box out-rotate">c</div>
@@ -35,64 +34,64 @@
       <div class="box out-rotate">g</div>
       <div class="box out-rotate">h</div>
 
-      <!-- Right left (Number) -->
+      <!-- Right left (Number & Empty Space) -->
       <div class="box out-stop"></div>
       <div class="box out">1</div>
 
-      <!-- Row 2 (White High Head) -->
-      <div class="box unmark">
-        <i class="fa-solid fa-chess-rook"></i>
-      </div>
+      <!-- Row 2 (Black High Head) -->
       <div class="box mark">
-        <i class="fas fa-chess-bishop"></i>
+        <i class="fa-regular fa-chess-rook coin-hover"></i>
       </div>
       <div class="box unmark">
-        <i class="fas fa-chess-knight"></i>
+        <i class="fa-regular fa-chess-bishop coin-hover"></i>
       </div>
       <div class="box mark">
-        <i class="fas fa-chess-king"></i>
+        <i class="fa-regular fa-chess-knight coin-hover"></i>
       </div>
       <div class="box unmark">
-        <i class="fa-solid fa-chess-queen"></i>
+        <i class="fa-regular fa-chess-king coin-hover"></i>
       </div>
       <div class="box mark">
-        <i class="fas fa-chess-knight"></i>
+        <i class="fa-regular fa-chess-queen coin-hover"></i>
       </div>
       <div class="box unmark">
-        <i class="fas fa-chess-bishop"></i>
+        <i class="fa-regular fa-chess-knight coin-hover"></i>
       </div>
       <div class="box mark">
-        <i class="fas fa-chess-rook"></i>
+        <i class="fa-regular fa-chess-bishop coin-hover"></i>
+      </div>
+      <div class="box unmark">
+        <i class="fa-regular fa-chess-rook coin-hover"></i>
       </div>
 
-    <!-- Right left (Number) -->
+      <!-- Right left (Number) -->
       <div class="box out-rotate-left">8</div>
       <div class="box out">2</div>
 
-      <!-- Row 3 (White Soliders) -->
-      <div class="box mark">
-        <i class="fa-solid fa-chess-pawn"></i>
-      </div>
+      <!-- Row 3 (Black Soliders) -->
       <div class="box unmark">
-        <i class="fa-solid fa-chess-pawn"></i>
+        <i class="fa-regular fa-chess-pawn coin-hover"></i>
       </div>
       <div class="box mark">
-        <i class="fa-solid fa-chess-pawn"></i>
+        <i class="fa-regular fa-chess-pawn coin-hover"></i>
       </div>
       <div class="box unmark">
-        <i class="fa-solid fa-chess-pawn"></i>
+        <i class="fa-regular fa-chess-pawn coin-hover"></i>
       </div>
       <div class="box mark">
-        <i class="fa-solid fa-chess-pawn"></i>
+        <i class="fa-regular fa-chess-pawn coin-hover"></i>
       </div>
       <div class="box unmark">
-        <i class="fa-solid fa-chess-pawn"></i>
+        <i class="fa-regular fa-chess-pawn coin-hover"></i>
       </div>
       <div class="box mark">
-        <i class="fa-solid fa-chess-pawn"></i>
+        <i class="fa-regular fa-chess-pawn coin-hover"></i>
       </div>
       <div class="box unmark">
-        <i class="fa-solid fa-chess-pawn"></i>
+        <i class="fa-regular fa-chess-pawn coin-hover"></i>
+      </div>
+      <div class="box mark">
+        <i class="fa-regular fa-chess-pawn coin-hover"></i>
       </div>
 
       <!-- Right left (Number) -->
@@ -100,7 +99,6 @@
       <div class="box out">3</div>
 
       <!-- Row 4 (Empty Space) -->
-      <div class="box unmark"></div>
       <div class="box mark"></div>
       <div class="box unmark"></div>
       <div class="box mark"></div>
@@ -108,13 +106,13 @@
       <div class="box mark"></div>
       <div class="box unmark"></div>
       <div class="box mark"></div>
+      <div class="box unmark"></div>
 
       <!-- Right left (Number) -->
       <div class="box out-rotate-left">6</div>
       <div class="box out">4</div>
 
-      <!-- Row 5 (Empty space) -->
-      <div class="box mark"></div>
+      <!-- Row 5 (Empty Space) -->
       <div class="box unmark"></div>
       <div class="box mark"></div>
       <div class="box unmark"></div>
@@ -122,13 +120,13 @@
       <div class="box unmark"></div>
       <div class="box mark"></div>
       <div class="box unmark"></div>
+      <div class="box mark"></div>
 
       <!-- Right left (Number) -->
       <div class="box out-rotate-left">5</div>
       <div class="box out">5</div>
 
-      <!-- Row 6 (Empty space) -->
-      <div class="box unmark"></div>
+      <!-- Row 6 (Empty Space) -->
       <div class="box mark"></div>
       <div class="box unmark"></div>
       <div class="box mark"></div>
@@ -136,13 +134,13 @@
       <div class="box mark"></div>
       <div class="box unmark"></div>
       <div class="box mark"></div>
+      <div class="box unmark"></div>
 
       <!-- Right left (Number) -->
       <div class="box out-rotate-left">4</div>
       <div class="box out">6</div>
 
-      <!-- Row 7 (Empty space) -->
-      <div class="box mark"></div>
+      <!-- Row 7 (Empty Space) -->
       <div class="box unmark"></div>
       <div class="box mark"></div>
       <div class="box unmark"></div>
@@ -150,34 +148,67 @@
       <div class="box unmark"></div>
       <div class="box mark"></div>
       <div class="box unmark"></div>
+      <div class="box mark"></div>
 
       <!-- Right left (Number) -->
       <div class="box out-rotate-left">3</div>
       <div class="box out">7</div>
 
-      <!-- Row 8 (White soliders) -->
-      <div class="box unmark"><i class="fa-regular fa-chess-pawn"></i></div>
-      <div class="box mark"><i class="fa-regular fa-chess-pawn"></i></div>
-      <div class="box unmark"><i class="fa-regular fa-chess-pawn"></i></div>
-      <div class="box mark"><i class="fa-regular fa-chess-pawn"></i></div>
-      <div class="box unmark"><i class="fa-regular fa-chess-pawn"></i></div>
-      <div class="box mark"><i class="fa-regular fa-chess-pawn"></i></div>
-      <div class="box unmark"><i class="fa-regular fa-chess-pawn"></i></div>
-      <div class="box mark"><i class="fa-regular fa-chess-pawn"></i></div>
-      
+      <!-- Row 8 (White Soliders) -->
+      <div class="box mark">
+        <i class="fa-solid fa-chess-pawn coin-hover"></i>
+      </div>
+      <div class="box unmark">
+        <i class="fa-solid fa-chess-pawn coin-hover"></i>
+      </div>
+      <div class="box mark">
+        <i class="fa-solid fa-chess-pawn coin-hover"></i>
+      </div>
+      <div class="box unmark">
+        <i class="fa-solid fa-chess-pawn coin-hover"></i>
+      </div>
+      <div class="box mark">
+        <i class="fa-solid fa-chess-pawn coin-hover"></i>
+      </div>
+      <div class="box unmark">
+        <i class="fa-solid fa-chess-pawn coin-hover"></i>
+      </div>
+      <div class="box mark">
+        <i class="fa-solid fa-chess-pawn coin-hover"></i>
+      </div>
+      <div class="box unmark">
+        <i class="fa-solid fa-chess-pawn coin-hover"></i>
+      </div>
+
       <!-- Right left (Number) -->
       <div class="box out-rotate-left">2</div>
       <div class="box out">8</div>
-      
+
       <!-- Row 9 (White High Head) -->
-      <div class="box mark"><i class="fa-regular fa-chess-rook"></i></div>
-      <div class="box unmark"><i class="fa-regular fa-chess-bishop"></i></div>
-      <div class="box mark"><i class="fa-regular fa-chess-knight"></i></div>
-      <div class="box unmark"><i class="fa-regular fa-chess-king"></i></div>
-      <div class="box mark"><i class="fa-regular fa-chess-queen"></i></div>
-      <div class="box unmark"><i class="fa-regular fa-chess-knight"></i></div>
-      <div class="box mark"><i class="fa-regular fa-chess-bishop"></i></div>
-      <div class="box unmark"><i class="fa-regular fa-chess-rook"></i></div>
+      <div class="box unmark">
+        <i class="fa-solid fa-chess-rook coin-hover"></i>
+      </div>
+      <div class="box mark">
+        <i class="fas fa-chess-bishop coin-hover"></i>
+      </div>
+      <div class="box unmark">
+        <i class="fas fa-chess-knight coin-hover"></i>
+      </div>
+      <div class="box mark">
+        <i class="fas fa-chess-king coin-hover"></i>
+      </div>
+      <div class="box unmark">
+        <i class="fa-solid fa-chess-queen coin-hover"></i>
+      </div>
+      <div class="box mark">
+        <i class="fas fa-chess-knight coin-hover"></i>
+      </div>
+      <div class="box unmark">
+        <i class="fas fa-chess-bishop coin-hover"></i>
+      </div>
+      <div class="box mark">
+        <i class="fas fa-chess-rook coin-hover"></i>
+      </div>
 
       <!-- Right left (Number & Space) -->
       <div class="box out-rotate-left">1</div>

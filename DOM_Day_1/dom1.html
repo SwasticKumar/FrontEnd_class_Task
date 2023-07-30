@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM 1</title>
+  </head>
+  <body>
+    <!-- Create Div and inner of div create paragraph tag using js -->
+    <div id="myDiv">
+      <!-- <p>My name is swatic</p> -->
+      <!-- <p class="myClass" id="myParagraph">This how we use script to recreate div and p element in js</p> -->
+    </div>
+    <script>
+      let newElement = document.createElement("p");
+      newElement.setAttribute("class", "myClass");
+      newElement.setAttribute("id", "myParagraph");
+
+      newElement.innerHTML = `This how we use script to <span class="mySpan">recreate </span> div and p element in js`;
+
+      let exitingElement = document.getElementById("myDiv");
+      exitingElement.appendChild(newElement);
+    </script>
+  </body>
+</html>
